@@ -1,0 +1,51 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: #fdebee;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  background-color: #fdebee;
+  padding: 10px;
+}
+
+.viewProfileContainer{
+  width: 150px;
+  background-color: rgb(65, 139, 228);
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+  justify-content: center;
+}
+.card {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.profileImg{
+  border-radius: 50%;
+  width: 155px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 12px 10px 15px;
+}
